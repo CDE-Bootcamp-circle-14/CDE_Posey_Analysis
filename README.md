@@ -22,8 +22,6 @@ We analysed the Posey database (2013–2017) to:
 3. Present findings in a PowerPoint deck for management.
 
 
-----
-
 ## 2. Setup Instructions
 1. Clone the repository:
    ```bash
@@ -42,13 +40,13 @@ The Posey database includes the following core tables:
 * `sales_reps`
 * `region`
 * `orders`
-* `web_events`
-**ERD Diagram**
-*(`docs/posey_erd.png`)*
+* `web_events`*
 
------
+![posey_erd.png`](posey_erd.png)
+
 
 ## 4. Exploratory Analysis
+
 ### 4.1 Overall Revenue KPIs
 [`sql/1_kpis_totals.sql`](sql/1_kpis_totals.sql)
 * Orders: \~6,900
@@ -76,16 +74,11 @@ SQL: [`sql/4_product_by_region.sql`](sql/4_product_by_region.sql)
 * Top 10 reps generate majority of revenue
 * Earlie Schleusner (SE) and Tia Amato (NE) exceed \$1M
 
-----
-
 ## 5. Presentation
 Final slides are located in:
-```
-presentation/Posey_Analysis_Presentation.pptx
-```
-Each slide maps directly to one SQL query and its exported chart.
 
----
+[`doc/Posey_Analysis_Presentation`](doc/Posey-Dataset-Analysis.pdf)
+
 
 ## 6. Collaboration Workflow
 1. Work is organised via feature branches.
