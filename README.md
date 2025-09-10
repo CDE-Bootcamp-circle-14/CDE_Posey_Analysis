@@ -42,9 +42,10 @@ The Posey database includes the following core tables:
 * `sales_reps`
 * `region`
 * `orders`
-* `web_events`
-**ERD Diagram**
-*(`docs/posey_erd.png`)*
+* `web_events`*
+*ERD Diagram**
+![posey_erd.png`](posey_erd.png)
+
 
 -----
 
