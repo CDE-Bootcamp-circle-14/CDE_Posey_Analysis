@@ -1,4 +1,6 @@
+--##################################################################
 -- Product performance across the region
+--##################################################################
 SELECT
   r.name                                     AS region,
   COALESCE(SUM(standard_amt_usd), 0)         AS standard_revenue,
