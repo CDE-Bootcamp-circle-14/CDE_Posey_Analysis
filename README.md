@@ -42,7 +42,10 @@ The Posey database includes the following core tables:
 * `orders`
 * `web_events`*
 
+**ERD Diagram**
+
 ![posey_erd.png`](posey_erd.png)
+
 
 
 ## 4. Exploratory Analysis
